@@ -1,0 +1,10 @@
+{
+  "name": "Onetime",
+  "version": "1.1",
+  "manifest_version": 3,
+  "description": "This is sample",
+  "content_scripts": [{
+    "matches": ["https://ssoidp.cc.saga-u.ac.jp/idp/profile/SAML2/Redirect/SSO?execution=e%s1"],
+    "js": ["oneTime.js"]
+  }]
+}
